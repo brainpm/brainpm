@@ -14,16 +14,25 @@
         - [ ] current test reads .npmrc. do not.
         - [ ] add more tests
         - [ ] extend readme
-        - [ ] remove bpm init stuff from bpm
+        - [x] remove bpm init stuff from bpm
     - embed media
         - video: brainpm-youtube
         - yt liked tag manager
     - quiz
-        - markdown extension: brainpm/quiz 
+        - markdown extension: brainpm/quiz
+        - reveal questions one at a time
+        - integrate quiz md parser with episode md parser
+        - a way to author per-answer feedback
 
     - bpm subcommands
+        - rename toc to ls
         - bpm ls
-        - bpm info <episode> 
+            - add command line options to get
+                - provided knowledge
+                - required knowledge
+                - track
+                - version
+        - bpm info <episode>
 
     - publishing
         - bpm-bundle
